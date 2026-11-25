@@ -82,8 +82,9 @@ void main() {
     Wednesday */
 
 
+                    // use math . random
 
-   int day =3;
+   int day =(int)(Math.random()*7)+1;
 
    switch(day){
 
@@ -126,6 +127,8 @@ void main() {
         case 7:
             System.out.println("Saturday");
         break;
+
+
 
     }             //curly brackets of switch
 
